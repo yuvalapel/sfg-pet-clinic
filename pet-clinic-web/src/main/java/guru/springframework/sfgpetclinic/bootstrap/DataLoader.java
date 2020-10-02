@@ -3,6 +3,7 @@ ackage guru.springframework.sfgpetclinic.bootstrap;
 import guru.springframework.sfgpetclinic.model.*;
 import guru.springframework.sfgpetclinic.model.services.OwnerService;
 import guru.springframework.sfgpetclinic.model.services.PetTypeService;
+import guru.springframework.sfgpetclinic.model.services.SpecialtyService;
 import guru.springframework.sfgpetclinic.model.services.VetService;
 import guru.springframework.sfgpetclinic.services.*;
 import org.springframework.boot.CommandLineRunner;
