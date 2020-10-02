@@ -2,14 +2,14 @@ package guru.springframework.sfgpetclinic.model;
 
 public class Speciality extends BaseEntity {
 
-    private String descripation;
+    private String description;
 
-    public String getDescripation() {
-        return descripation;
+    public String getDescription() {
+        return description;
     }
 
-    public void setDescripation(String descripation) {
-        this.descripation = descripation;
+    public void setDescription(String description) {
+        this.description = description;
     }
 }
 
