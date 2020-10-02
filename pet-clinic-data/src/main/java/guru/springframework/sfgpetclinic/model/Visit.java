@@ -5,7 +5,7 @@ import java.time.LocalDate;
 public class Visit  extends BaseEntity {
 
     private LocalDate date;
-    private String descriptaion;
+    private String description;
     private Pet pet;
 
     public LocalDate getDate() {
@@ -16,12 +16,12 @@ public class Visit  extends BaseEntity {
         this.date = date;
     }
 
-    public String getDescriptaion() {
-        return descriptaion;
+    public String getDescription() {
+        return description;
     }
 
-    public void setDescriptaion(String descriptaion) {
-        this.descriptaion = descriptaion;
+    public void setDescription(String description) {
+        this.description = description;
     }
 
     public Pet getPet() {
