@@ -1,11 +1,7 @@
-ackage guru.springframework.sfgpetclinic.bootstrap;
+package guru.springframework.sfgpetclinic.bootstrap;
 
 import guru.springframework.sfgpetclinic.model.*;
-import guru.springframework.sfgpetclinic.model.services.OwnerService;
-import guru.springframework.sfgpetclinic.model.services.PetTypeService;
-import guru.springframework.sfgpetclinic.model.services.SpecialtyService;
-import guru.springframework.sfgpetclinic.model.services.VetService;
-import guru.springframework.sfgpetclinic.services.*;
+import guru.springframework.sfgpetclinic.model.services.*;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
