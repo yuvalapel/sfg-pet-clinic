@@ -48,15 +48,6 @@ class OwnerControllerTest {
     }
 
     @Test
-    void listOwners() throws Exception {
-
-        when(ownerService.findAll()).thenReturn(owners);
-
-        mockMvc.perform(get("/owners"))
-                .andExpect(status().isOk());
-    }
-
-    @Test
     void findOwners() throws Exception {
         mockMvc.perform(get("/owners/find"))
                 .andExpect(status().isOk());
