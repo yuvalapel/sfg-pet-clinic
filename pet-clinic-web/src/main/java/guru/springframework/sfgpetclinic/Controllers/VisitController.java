@@ -37,6 +37,7 @@ public class VisitController {
         });
     }
 
+
     /**
      * Called before each and every @RequestMapping annotated method.
      * 2 goals:
